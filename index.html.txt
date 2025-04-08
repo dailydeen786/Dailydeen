@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dailydeen - Your Islamic Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dailydeen</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#quran">Quran</a></li>
+                <li><a href="#prayer">Prayer Times</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Assalamu Alaikum</h2>
+        <p>Welcome to Dailydeen, your daily source for Islamic knowledge and guidance.</p>
+        <img src="https://via.placeholder.com/400x200?text=Masjid" alt="Masjid Image">
+    </section>
+
+    <section id="quran">
+        <h2>Quran</h2>
+        <p><strong>Surah Al-Fatiha</strong><br>Bismillahir Rahmanir Rahim<br>Alhamdulillahi Rabbil Alamin...</p>
+        <audio controls>
+            <source src="https://cdn.islamic.network/quran/audio/128/ar.alafasy/1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>Listen to Surah Al-Fatiha recited by Mishary Rashid Alafasy (Source: Islamic Network).</p>
+    </section>
+
+    <section id="prayer">
+        <h2>Prayer Times</h2>
+        <p>Below are sample prayer times. Update them based on your location.</p>
+        <table>
+            <tr><th>Prayer</th><th>Time</th></tr>
+            <tr><td>Fajr</td><td>5:00 AM</td></tr>
+            <tr><td>Dhuhr</td><td>12:30 PM</td></tr>
+            <tr><td>Asr</td><td>3:45 PM</td></tr>
+            <tr><td>Maghrib</td><td>6:15 PM</td></tr>
+            <tr><td>Isha</td><td>7:30 PM</td></tr>
+        </table>
+    </section>
+
+    <section id="about">
+        <h2>About Dailydeen</h2>
+        <p>We aim to spread the light of Islam through daily teachings, Quran recitations, and prayer reminders.</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Dailydeen. All rights reserved.</p>
+    </footer>
+</body>
+</html>
